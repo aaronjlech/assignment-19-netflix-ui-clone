@@ -21,33 +21,31 @@ body{
          color: #000;
          background: #E26A6A
       }
-      .shows-container{
-         .series-thumb{
-            width: 50%;
-            background: none;
 
-
-         }
 
 
 
       }
+      .thumb{
+         border: none;
+         background: none;
+         color: #fff;
+      }
    }
    .home-users{
-      a:hover{
-         background: red;
       }
 
       .user-profile{
          border: none;
          background: none;
+         :hover{ background: red;}
+
          .usr-pic{
             border: none;
+
          }
       }
-   }
+
    .user-name{
       color: black;
    }
-
-}

@@ -52,9 +52,9 @@ var showUserPage = function(userInfo){
 
          var imageHolder = showInfo.image.medium
             var showStr = '         <div class="col-xs-4 col-sm-2 ">'
-             showStr += '            <div class="thumbnail series-thumb">'
+             showStr += '            <div class="thumbnail thumb">'
              showStr += '               <img src="'+ imageHolder + '"' + 'alt="">'
-             showStr += '               <h3>' + showInfo.name + '</h3>'
+             showStr += '               <p>' + showInfo.name + '</p>'
              showStr += '            </div>'
              showStr += '         </div>'
              showStr += '      </div>'
@@ -65,7 +65,7 @@ var showUserPage = function(userInfo){
 
       var showSelector = function(showNum){
 
-              $.getJSON('https://api.tvmaze.com/shows/' + showNum ).then(showBuilder)
+              $.getJSON('http://api.tvmaze.com/shows/' + showNum ).then(showBuilder)
 
       }
 

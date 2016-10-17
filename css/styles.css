@@ -383,17 +383,20 @@ body {
   #app-container .list-headline span {
     color: #000;
     background: #E26A6A; }
-  #app-container .list-headline .shows-container .series-thumb {
-    width: 50%;
-    background: none; }
-#app-container .home-users a:hover {
-  background: red; }
-#app-container .home-users .user-profile {
+#app-container .thumb {
+  border: none;
+  background: none;
+  color: #fff; }
+
+.user-profile {
   border: none;
   background: none; }
-  #app-container .home-users .user-profile .usr-pic {
+  .user-profile :hover {
+    background: red; }
+  .user-profile .usr-pic {
     border: none; }
-#app-container .user-name {
+
+.user-name {
   color: black; }
 
 /*# sourceMappingURL=styles.css.map */
