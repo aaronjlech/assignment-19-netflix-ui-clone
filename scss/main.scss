@@ -1,0 +1,53 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+body{
+   background:url('../images/gray_holograph_gradient.jpg')center, center, no-repeat;
+   background-size: cover;
+   height: 100vh;
+
+}
+
+#app-container{
+
+   h3{color: #fff;}
+   .list-headline{
+      color: #fff;
+      span{
+         color: #000;
+         background: #E26A6A
+      }
+      .shows-container{
+         .series-thumb{
+            width: 50%;
+            background: none;
+
+
+         }
+
+
+
+      }
+   }
+   .home-users{
+      a:hover{
+         background: red;
+      }
+
+      .user-profile{
+         border: none;
+         background: none;
+         .usr-pic{
+            border: none;
+         }
+      }
+   }
+   .user-name{
+      color: black;
+   }
+
+}
