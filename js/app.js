@@ -65,7 +65,7 @@ var showUserPage = function(userInfo){
 
       var showSelector = function(showNum){
 
-              $.getJSON('http://api.tvmaze.com/shows/' + showNum ).then(showBuilder)
+              $.getJSON('https://api.tvmaze.com/shows/' + showNum ).then(showBuilder)
 
       }
 
